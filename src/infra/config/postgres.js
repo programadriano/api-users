@@ -4,9 +4,9 @@ module.exports = {
   herbsCLI: 'postgres',
   client: 'pg',
   connection: {
-    host: '127.0.0.1',
+    host: 'db.bappmaovvkmoydjvzfka.supabase.co',
     user: 'postgres',
-    password: 'postgres',
-    database: 'api-users'
+    password: 'b1PgXCIoeL5yCBY4',
+    database: 'postgres'
   }
 }

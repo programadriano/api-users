@@ -2,10 +2,10 @@ module.exports = {
     development: {
       client: 'postgresql',
       connection: {
-        database: 'api-users',
+        host: 'db.bappmaovvkmoydjvzfka.supabase.co',
         user: 'postgres',
-        password: 'postgres',
-        host: '127.0.0.1',
+        password: 'b1PgXCIoeL5yCBY4',
+        database: 'postgres',
         port: 5432
       },
       migrations: {
