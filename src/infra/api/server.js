@@ -31,8 +31,7 @@ async function start(config) {
   await graphql(app, config)
   await shelf(app, config)
 
-  return app.listen(
-    { port: config.api.port },
+  return app.listen({ port: config.api.port },
     // eslint-disable-next-line no-console
     () => console.log(`🚀 Server UP and 🌪️  - http://localhost:${config.api.port}/`))
 }
